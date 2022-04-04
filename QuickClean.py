@@ -2,7 +2,6 @@ import requests
 import configparser
 import os
 import time
-from threading import Thread
 
 config = configparser.ConfigParser()
 config.read_file(open(r"Config.ini"))
