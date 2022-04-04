@@ -6,8 +6,8 @@ Cleans your private messages in the not so absolute quickness
 
 - Download as .ZIP
 - Open up Setup.py
- - Insert cookie here
- - Upon completed, you will redirected to main program
+  - Insert cookie here
+  - Upon completion, you will redirected to main program
 - It's ready, and clearing your private messages
 
 # Example 
