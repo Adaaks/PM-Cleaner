@@ -1,4 +1,4 @@
-# QuickClean
+# PM Cleaner
 
 Cleans your private messages in the not so absolute quickness
 
