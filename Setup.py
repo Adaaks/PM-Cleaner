@@ -12,7 +12,7 @@ def program():
         config.set("auth", "cookie", cookie)
         with open("config.ini", 'w') as configfile:
             config.write(configfile)
-            os.startfile("QuickClean.py")
+            os.startfile("PM Cleaner.py")
             quit()
     else:
         print("[ERROR] Your cookie must start with:\n\n_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_")
