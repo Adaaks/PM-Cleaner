@@ -9,8 +9,9 @@ def program():
     config.read("Config.ini")
     
     if "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_" in cookie:
-        config.set("auth", "cookie", cookie)
+        
         with open("config.ini", 'w') as configfile:
+            config.set("auth", "cookie", cookie)
             config.write(configfile)
             os.startfile("PM Cleaner.py")
             quit()

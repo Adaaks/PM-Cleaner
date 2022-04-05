@@ -25,6 +25,15 @@ req2 = session.post(
     url="https://auth.roblox.com/"
 )
 
+check = session.get('https://api.roblox.com/currency/balance')
+if not check.status_code ==200:
+    print("Invalid cookie!")
+    time.sleep(3)
+    quit()
+else:
+    print("Successfully logged in!")
+
+
 request = session.get("https://privatemessages.roblox.com/v1/messages?pageNumber=1&pageSize=20&messageTab=Inbox")
 request2 = request.json()
 pmcount = request2['totalCollectionSize']
