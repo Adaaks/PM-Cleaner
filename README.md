@@ -2,12 +2,17 @@
 
 Cleans your private messages in the not so absolute quickness
 
+# Update
+
+- Added threading, to make it faster (recommended: 100)
+
 # Setup
 
 - Download as .ZIP
 - Open up Setup.py
   - Insert cookie here
   - Upon completion, you will redirected to main program
+- Set amount of threads you wish (speed)
 - It's ready, and clearing your private messages
 
 # Example 
