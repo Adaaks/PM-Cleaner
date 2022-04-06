@@ -1,10 +1,10 @@
 # PM Cleaner
 
-Cleans your private messages in the not so absolute quickness
+Cleans your private messages in the absolute quickness
 
 # Update
 
-- Added threading, to make it faster (recommended: 100)
+- Optimised code, and removed threading
 
 # Setup
 
